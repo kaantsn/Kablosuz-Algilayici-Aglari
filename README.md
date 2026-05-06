@@ -1,21 +1,26 @@
-# 🛡️ Blackhole Saldırısı Simülasyonu
+# 🛡️ Kablosuz Algılayıcı Ağları - Blackhole Saldırısı Simülasyonu
 
-Bu bölümde, ağ üzerindeki trafik akışının normal seyrini (Base) ve bir Blackhole saldırısı altındaki değişimini (Attack) içeren simülasyon sonuçları yer almaktadır.
+Bu proje, Kablosuz Algılayıcı Ağları (WSN) üzerinde gerçekleştirilen **Blackhole (Kara Delik) Saldırısını** simüle etmek ve bu saldırının ağ trafiği üzerindeki etkilerini analiz etmek amacıyla geliştirilmiştir.
 
 ---
 
-## 📊 Simülasyon Senaryoları
+## 📺 Simülasyon Senaryoları
+
+Aşağıdaki videolarda, ağın normal işleyişi ile saldırı altındaki durumu arasındaki farkı gözlemleyebilirsiniz.
 
 | 🟢 Senaryo 1: Base (Normal Durum) | 🔴 Senaryo 2: Attack (Saldırı Anı) |
 | :--- | :--- |
-| Ağdaki düğümlerin normal protokol kurallarına göre veri paketlerini ilettiği simülasyon. | Kötü niyetli bir düğümün paketleri yutarak ağ trafiğini kestiği simülasyon. |
-| <video src="https://github.com/user-attachments/assets/d4b61905-eaed-495b-8d30-ede911573b13" width="100%"> </video> | <video src="https://github.com/user-attachments/assets/cdec47d8-424d-4d3e-bac8-f74e0faf9e20" width="100%"> </video> |
+| **Açıklama:** Veri paketlerinin düğümler arasında güvenli ve eksiksiz iletildiği standart ağ protokolü. | **Açıklama:** Saldırgan düğümün paketleri üzerine çekip imha ederek iletişimi kestiği senaryo. |
+| <video src="https://github.com/user-attachments/assets/d4b61905-eaed-495b-8d30-ede911573b13" width="100%"></video> | <video src="https://github.com/user-attachments/assets/cdec47d8-424d-4d3e-bac8-f74e0faf9e20" width="100%"></video> |
 
 ---
 
-### 🔍 Karşılaştırma Analizi
+## 🛠️ Kurulum ve Çalıştırma
 
-* **Base Senaryosu:** Paket iletim oranı (PDR) yüksektir, veri kaybı minimum düzeydedir ve ağ topolojisi kararlı çalışır.
-* **Attack Senaryosu:** Saldırgan düğüm (Blackhole node), komşu düğümlere en kısa yolu kendisiymiş gibi göstererek paketleri üzerine çeker ve imha eder. Videoda paketlerin belli bir noktada toplandığı ve hedefe ulaşamadığı gözlemlenebilir.
+Projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları takip edebilirsiniz.
 
----
+### 1️⃣ Repoyu Klonlayın
+Öncelikle projeyi bilgisayarınıza indirin ve proje klasörüne gidin:
+```bash
+git clone [https://github.com/kaantsn/Kablosuz-Algilayici-Aglari.git](https://github.com/kaantsn/Kablosuz-Algilayici-Aglari.git)
+cd Kablosuz-Algilayici-Aglari
