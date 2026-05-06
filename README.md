@@ -1,4 +1,4 @@
-# Kablosuz Algılayıcı Ağlar (WSN) Pentest Platformu 📡
+# Kablosuz Algılayıcı Ağlar Karadelik Saldırısı Simülasyonu 📡
 
 Bu proje, Kablosuz Algılayıcı Ağlar üzerinde **AODV** protokolü zafiyetlerini ve **Blackhole (Karadelik)** saldırısını analiz eden teknik bir sızma testi simülatörüdür.
 
