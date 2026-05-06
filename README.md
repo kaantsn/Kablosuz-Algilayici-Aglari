@@ -3,11 +3,12 @@
 Bu proje, Kablosuz Algılayıcı Ağlar üzerinde **AODV** protokolü zafiyetlerini ve **Blackhole (Karadelik)** saldırısını analiz eden teknik bir sızma testi simülatörüdür.
 
 ## 📺 Simülasyon (Base) Videosu
-<div align="center">
-  <video src="
-https://github.com/user-attachments/assets/902c52ab-219b-4984-9d68-4b93236ce6e0" width="600" controls title="Base">
+
+<p align="center">
+  <video src="https://github.com/user-attachments/assets/902c52ab-219b-4984-9d68-4b93236ce6e0" width="100%" max-width="600px" controls>
+    Tarayıcınız video etiketini desteklemiyor.
   </video>
-</div>
+</p>
 ## 🛠️ Kurulum ve Çalıştırma
 
 1. **Repoyu klonlayın:**
